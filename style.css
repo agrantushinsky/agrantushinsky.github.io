@@ -12,7 +12,8 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 1rem 2rem;
-    background-color: lightblue;
+    background-color: #222222;
+    border-radius: 16px;
 }
 
 nav ul {
@@ -26,10 +27,40 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: #ffffff;
     transition: 0.5s;
 }
 
 nav a:hover {
     color: darkgray
+}
+
+body {
+    min-height: 100vh;
+    color: #ffffff;
+    background-color: #DFFF00;
+    background-image:
+        radial-gradient(at 10% 90%, hsla(190, 90%, 75%, 1) 0px, transparent 50%),
+        radial-gradient(at 70% 10%, hsla(300, 90%, 75%, 1) 0px, transparent 50%),
+        radial-gradient(at 20% 20%, hsla(15, 90%, 75%, 1) 0px, transparent 50%),
+        radial-gradient(at 60% 10%, hsla(5, 90%, 75%, 1) 0px, transparent 50%),
+        radial-gradient(at 20% 90%, hsla(200, 90%, 75%, 1) 0px, transparent 50%),
+        radial-gradient(at 40% 10%, hsla(100, 90%, 75%, 1) 0px, transparent 50%),
+        radial-gradient(at 10% 10%, hsla(250, 90%, 75%, 1) 0px, transparent 50%);
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 16px;
+}
+
+.floatingContainer { 
+    display: block;
+    border-radius: 16px;
+    width: 90%;
+    background: hsla(0, 0%, 0%, 0.60);
+    margin-bottom: 32px;
+    padding: 16px;
 }
