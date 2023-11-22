@@ -35,32 +35,60 @@ nav a:hover {
     color: darkgray
 }
 
+nav i {
+    padding-left: 8px;
+}
+
 body {
     min-height: 100vh;
     color: #ffffff;
-    background-color: #DFFF00;
+    background-color: hsl(68, 90%, 35%);
     background-image:
-        radial-gradient(at 10% 90%, hsla(190, 90%, 75%, 1) 0px, transparent 50%),
-        radial-gradient(at 70% 10%, hsla(300, 90%, 75%, 1) 0px, transparent 50%),
-        radial-gradient(at 20% 20%, hsla(15, 90%, 75%, 1) 0px, transparent 50%),
-        radial-gradient(at 60% 10%, hsla(5, 90%, 75%, 1) 0px, transparent 50%),
-        radial-gradient(at 20% 90%, hsla(200, 90%, 75%, 1) 0px, transparent 50%),
-        radial-gradient(at 40% 10%, hsla(100, 90%, 75%, 1) 0px, transparent 50%),
-        radial-gradient(at 10% 10%, hsla(250, 90%, 75%, 1) 0px, transparent 50%);
+        radial-gradient(at 10% 90%, hsla(190, 90%, 35%, 1) 0px, transparent 50%),
+        radial-gradient(at 70% 10%, hsla(300, 90%, 35%, 1) 0px, transparent 50%),
+        radial-gradient(at 20% 20%, hsla(15, 90%, 35%, 1) 0px, transparent 50%),
+        radial-gradient(at 60% 10%, hsla(5, 90%, 35%, 1) 0px, transparent 50%),
+        radial-gradient(at 20% 90%, hsla(200, 90%, 35%, 1) 0px, transparent 50%),
+        radial-gradient(at 40% 10%, hsla(100, 90%, 35%, 1) 0px, transparent 50%),
+        radial-gradient(at 10% 10%, hsla(250, 90%, 35%, 1) 0px, transparent 50%);
 }
 
 .mainContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .floatingContainer { 
     display: block;
     border-radius: 16px;
-    width: 90%;
     background: hsla(0, 0%, 0%, 0.60);
     margin-bottom: 32px;
     padding: 16px;
+}
+
+.projectCardContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.projectCard {
+    /* The background's alpha adds onto the transparent background that is 
+    behind it. */
+    background-color: hsla(0, 0%, 0%, 0.50);
+    margin: 8px;
+    padding: 8px;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
