@@ -108,12 +108,14 @@ body {
 
 .bottomContainer {
     margin-top: auto;
+    text-decoration: none;
 }
 
-.externalLinkButton {
+.externalLink button {
     background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%);
-    padding: 12px 30px;
-    font-size: 24px;
+    padding: 12px 26px;
+    margin: 8px;
+    font-size: 18px;
     text-align: center;
     transition: 0.5s;
     background-size: 200% auto;
@@ -122,7 +124,11 @@ body {
     border: none;
 }
 
-.externalLinkButton:hover {
+.externalLink a {
+    text-decoration: none;
+}
+
+.externalLink button:hover {
     /* Moves the gradient */
     background-position: right center;
 }
