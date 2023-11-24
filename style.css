@@ -95,6 +95,12 @@ body {
     width: 100%;
 }
 
+.column {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
 .technologiesRow {
     display: flex-row;
     flex-direction: row;
