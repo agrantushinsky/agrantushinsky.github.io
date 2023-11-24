@@ -136,3 +136,9 @@ body {
     /* Moves the gradient */
     background-position: right center;
 }
+
+.externalLink button:disabled {
+    /* Moves the gradient */
+    background-image: linear-gradient(to right, #98a4b3 0%, #95b1b1  51%, #98a4b3  100%);
+    pointer-events: none;
+}
