@@ -16,6 +16,11 @@ function Timeline() {
                 <TimelineSubtitle>And this is a subtitle.</TimelineSubtitle>
                 <p>Some other text...</p>
             </TimelineNode>
+            <TimelineNode date="1990-1995">
+                <TimelineTitle>Number two</TimelineTitle>
+                <TimelineSubtitle>Woah.</TimelineSubtitle>
+                <p>Even more other text...</p>
+            </TimelineNode>
         </TimelineContainer>
     </>
 }
