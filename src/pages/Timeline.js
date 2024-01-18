@@ -56,12 +56,46 @@ function Timeline() {
                 </p>
             </TimelineNode>
 
-            <TimelineNode date="">
+            <TimelineNode date="1956-1957">
                 <TimelineTitle>The revolution</TimelineTitle>
                 <p>
-                    Castro returned to Cuba in 1956, 
+                    Castro returned to Cuba in 1956, with 81 men, but most of his force were quickly captured or killed. He started a guerilla campaign
+                    in the mountainsd to overthrow Batista's dictatorship and start a revolution. At this time, Cuba was in a civil war between the
+                    Revolutionary Directorate and a group of insurrectionists. Trade unionists attempted to promote a general strrike, however the government 
+                    would take measures to suppress it ("Cuban Revolution").
+                </p>
+                <p>
+                    Breaking strikes in order to gain political influence is a crucial detail when looking from the Marxist perspective. The power 
+                    to establish in influence in this manner is a representation of strict hiearchy, being used as a means of oppressing the people. 
                 </p>
             </TimelineNode>
+
+            <TimelineNode date="1958">
+                <TimelineTitle>A successful implementation of Marxism</TimelineTitle>
+                <p>
+                    Castro led raids and destruction of property throughout his revolution, causing economic instability ("Cuban Revolution"). 
+                    Marx believed that poor material conditions would lead to a revolution, Castro's revolution goes inline with his thinking. With the growing pessure
+                    and the growing weakness of his army, he ceded power, making Manuel Urrutia Lleó president, and Fidel Castro prime minister ("Cuban Revolution").
+                </p>
+                <p>
+                    Castro successfully overthrew the government to begin implementing his social reforms, with the goal of benefitting the poorer 
+                    people of Cuba.
+                </p>
+            </TimelineNode>
+
+            <TimelineNode date="">
+                <TimelineTitle>A successful implementation of Marxism</TimelineTitle>
+                <p>
+                    Castro led raids and destruction of property throughout his revolution, causing economic instability ("Cuban Revolution"). 
+                    Marx believed that poor material conditions would lead to a revolution, Castro's revolution goes inline with his thinking. With the growing pessure
+                    and the growing weakness of his army, he ceded power, making Manuel Urrutia Lleó president, and Fidel Castro prime minister ("Cuban Revolution").
+                </p>
+                <p>
+                    Castro successfully overthrew the government to begin implementing his social reforms, with the goal of benefitting the poorer 
+                    people of Cuba.
+                </p>
+            </TimelineNode>
+
         </TimelineContainer>
 
         <References/>
