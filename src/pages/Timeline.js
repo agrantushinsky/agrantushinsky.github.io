@@ -83,16 +83,35 @@ function Timeline() {
                 </p>
             </TimelineNode>
 
-            <TimelineNode date="">
-                <TimelineTitle>A successful implementation of Marxism</TimelineTitle>
+            <TimelineNode date="1959">
+                <TimelineTitle>Land Ownership</TimelineTitle>
                 <p>
-                    Castro led raids and destruction of property throughout his revolution, causing economic instability ("Cuban Revolution"). 
-                    Marx believed that poor material conditions would lead to a revolution, Castro's revolution goes inline with his thinking. With the growing pessure
-                    and the growing weakness of his army, he ceded power, making Manuel Urrutia Lleó president, and Fidel Castro prime minister ("Cuban Revolution").
+                    Castro implemented a program of expropriation of all landholding exceeding 4km², forced lending and heavier taxation ("Cuban Revolution").
+                    These policies had the common goal of helping those who are less fortunate, and stopping the accumulation of wealth. Castro's government
+                    put a greater emphasis on social programs and ownership, with the end goal of establishing a socialist state.
+                </p>
+            </TimelineNode>
+
+            <TimelineNode date="1959">
+                <TimelineTitle>Healthcare</TimelineTitle>
+                <p>
+                    Cuba began nationalizing healthcare during the post-revolution period 1959-1970. Cubans today have access to high quality, free healthcare in the public sector,
+                    with privatization being forbidden (De Vos).
                 </p>
                 <p>
-                    Castro successfully overthrew the government to begin implementing his social reforms, with the goal of benefitting the poorer 
-                    people of Cuba.
+                    Within the context of Marxism, the implementation of nationalized healthcare is crucial because no one is left behind and healthcare is 
+                    viewed a human right. In Karl Marx's 1875 Critique of the Gotha Programme, he said "From each according to his ability, to each according to his needs," 
+                    which is why we see socialist movements bringing free healthcare to the population. This famous quote is the essence of Marxism, where no matter the ability of an
+                    individual, their needs will be met, including healthcare.
+                </p>
+            </TimelineNode>
+
+            <TimelineNode date="1961">
+                <TimelineTitle>Education</TimelineTitle>
+                <p>
+                    Literacy is important to education, and with Cuba having a literacy rate of only 60%-76%, the Cuban Literacy Campaign was launched to combat this issue.
+                    Around a quarter of a million volunteers, comprising of mostly young women set out to teach reading and writing skills. The program was extremely successful, with in over a little over a year
+                    almost the entire population was literate (Seara Rey). 
                 </p>
             </TimelineNode>
 

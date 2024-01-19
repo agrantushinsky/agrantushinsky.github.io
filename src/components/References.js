@@ -9,6 +9,12 @@ function References() {
         <p>
             Britannica, The Editors of Encyclopaedia. "Platt Amendment". Encyclopedia Britannica, 24 Oct. 2019, https://www.britannica.com/topic/Platt-Amendment. Accessed 17 January 2024.
         </p>
+        <p>
+            De Vos, Pol. “'No One Left Abandoned': Cuba's National Health ... - Sage Journals.” SageJournals, Jan. 2005, journals.sagepub.com/doi/10.2190/M72R-DBKD-2XWV-HJWB. 
+        </p>
+        <p>
+            Seara Rey, Kian. “Rosa Hernández Acosta on the Cuban Literacy Campaign - JSTOR DAILY.” JSTOR Daily, 6 Feb. 2021, daily.jstor.org/rosa-hernandez-acosta-on-the-cuban-literacy-campaign/. 
+        </p>
     </>;
 }
 
