@@ -15,6 +15,9 @@ function References() {
                 Britannica, The Editors of Encyclopaedia. "Fulgencio Batista". Encyclopedia Britannica, 12 Jan. 2024, <HyperLink>https://www.britannica.com/biography/Fulgencio-Batista</HyperLink>. Accessed 17 January 2024.
             </p>
             <p>
+                Britannica, The Editors of Encyclopaedia. "Marxian communism". Encyclopedia Britannica, <HyperLink>https://www.britannica.com/topic/communism/Marxian-communism</HyperLink>. Accessed 18 January 2024.
+            </p>
+            <p>
                 Britannica, The Editors of Encyclopaedia. "Platt Amendment". Encyclopedia Britannica, 24 Oct. 2019, <HyperLink>https://www.britannica.com/topic/Platt-Amendment</HyperLink>. Accessed 17 January 2024.
             </p>
             <p>
