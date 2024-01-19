@@ -1,4 +1,6 @@
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
+import AnimatedShowMore from "react-animated-show-more"
+import MoreLessButton from "./MoreLessButton";
 
 function TimelineNode(props) {
     return (
@@ -8,7 +10,14 @@ function TimelineNode(props) {
             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
         >
-            {props.children}
+            <AnimatedShowMore
+                height={100}
+                toggle={MoreLessButton}
+                speed={250}
+                shadowColor="#000"
+            >
+                {props.children}
+            </AnimatedShowMore>
         </VerticalTimelineElement>
     );
 }

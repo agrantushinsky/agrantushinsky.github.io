@@ -14,7 +14,6 @@ function Timeline() {
         <TimelineContainer>
             <TimelineNode date="1901">
                 <TimelineTitle>Platt Amendment</TimelineTitle>
-                <TimelineSubtitle>Limiting Cuba's power</TimelineSubtitle>
                 <p>
                     The amendment stipulated the conditions for the withdrawal of the U.S. following the Spanish-American War. It required that Cuba would not transfer
                     land to any power other than the U.S. and the naval base Guantánamo Bay must be handed over to the United States.
@@ -28,7 +27,6 @@ function Timeline() {
 
             <TimelineNode date="1905-1906">
                 <TimelineTitle>Estrada Palma's administration</TimelineTitle>
-                <TimelineSubtitle>Conversative party, later to be known as the Moderates</TimelineSubtitle>
                 <p>
                     Palma planned to implement progressive policies, however he was plagued by instability. Upon being accused of rigging the election,
                     and commiting pension fraud and failure to deliver on his promises, a revolution was triggered forcing him to resign ("Cuban Revolution").
@@ -37,7 +35,6 @@ function Timeline() {
 
             <TimelineNode date="1913-1921">
                 <TimelineTitle>Corruption in Cuba</TimelineTitle>
-                <TimelineSubtitle>Something about needing reform</TimelineSubtitle>
                 <p>
                     Menocal's government made material progress, however new charges of government corruption came with it and accusations of nepotism.
                     Menocal later secured his reelection through the means of fraud and violence ("Cuban Revolution").  
