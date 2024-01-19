@@ -1,18 +1,21 @@
 import TimelineNode from "../components/TimelineNode";
 import TimelineTitle from "../components/TimelineTitle";
 import TimelineContainer from "../components/TimelineContainer";
-import TimelineSubtitle from "../components/TimelineSubtitle";
 
 // Import for all the timeline styling.
 import 'react-vertical-timeline-component/style.min.css';
 import References from "../components/References";
+import Container from "../components/Container"
 
 function Timeline() {
     return <>
-        <h1>The Cuban Revolution</h1>
+        <Container centered={true}>
+            <h1>The Cuban Revolution</h1>
+            <p>Aidan Grant-Ushinsky</p>
+        </Container>
 
         <TimelineContainer>
-            <TimelineNode date="1901">
+            <TimelineNode date="1901" colour="rgb(33, 33, 120)">
                 <TimelineTitle>Platt Amendment</TimelineTitle>
                 <p>
                     The amendment stipulated the conditions for the withdrawal of the U.S. following the Spanish-American War. It required that Cuba would not transfer
@@ -25,7 +28,7 @@ function Timeline() {
                 </p>
             </TimelineNode>
 
-            <TimelineNode date="1905-1906">
+            <TimelineNode date="1905-1906" colour="rgb(33, 33, 120)">
                 <TimelineTitle>Estrada Palma's administration</TimelineTitle>
                 <p>
                     Palma planned to implement progressive policies, however he was plagued by instability. Upon being accused of rigging the election,
@@ -33,7 +36,7 @@ function Timeline() {
                 </p>
             </TimelineNode>
 
-            <TimelineNode date="1913-1921">
+            <TimelineNode date="1913-1921" colour="rgb(33, 33, 120)">
                 <TimelineTitle>Corruption in Cuba</TimelineTitle>
                 <p>
                     Menocal's government made material progress, however new charges of government corruption came with it and accusations of nepotism.
@@ -44,7 +47,7 @@ function Timeline() {
                 </p>
             </TimelineNode>
 
-            <TimelineNode date="1953">
+            <TimelineNode date="1953" colour="rgb(33, 33, 120)">
                 <TimelineTitle>The rise of Fidel Castro</TimelineTitle>
                 <p>
                     Throughout Fidel Castro's time as a student, he participated in numerous revolutionary activities. In 1952, he was the candidate for the
@@ -53,7 +56,7 @@ function Timeline() {
                 </p>
             </TimelineNode>
 
-            <TimelineNode date="1956-1957">
+            <TimelineNode date="1956-1957" colour="rgb(90, 33, 33)">
                 <TimelineTitle>The revolution</TimelineTitle>
                 <p>
                     Castro returned to Cuba in 1956, with 81 men, but most of his force were quickly captured or killed. He started a guerilla campaign
@@ -67,7 +70,7 @@ function Timeline() {
                 </p>
             </TimelineNode>
 
-            <TimelineNode date="1958">
+            <TimelineNode date="1958" colour="rgb(90, 33, 33)">
                 <TimelineTitle>A successful implementation of Marxism</TimelineTitle>
                 <p>
                     Castro led raids and destruction of property throughout his revolution, causing economic instability ("Cuban Revolution"). 
@@ -80,7 +83,7 @@ function Timeline() {
                 </p>
             </TimelineNode>
 
-            <TimelineNode date="1959">
+            <TimelineNode date="1959" colour="rgb(90, 33, 33)">
                 <TimelineTitle>Land Ownership</TimelineTitle>
                 <p>
                     Castro implemented a program of expropriation of all landholding exceeding 4km², forced lending and heavier taxation ("Cuban Revolution").
@@ -89,7 +92,7 @@ function Timeline() {
                 </p>
             </TimelineNode>
 
-            <TimelineNode date="1959">
+            <TimelineNode date="1959" colour="rgb(33, 90, 33)">
                 <TimelineTitle>Healthcare</TimelineTitle>
                 <p>
                     Cuba began nationalizing healthcare during the post-revolution period 1959-1970. Cubans today have access to high quality, free healthcare in the public sector,
@@ -103,7 +106,7 @@ function Timeline() {
                 </p>
             </TimelineNode>
 
-            <TimelineNode date="1961">
+            <TimelineNode date="1961" colour="rgb(33, 90, 33)">
                 <TimelineTitle>Education</TimelineTitle>
                 <p>
                     Literacy is important to education, and with Cuba having a literacy rate of only 60%-76%, the Cuban Literacy Campaign was launched to combat this issue.

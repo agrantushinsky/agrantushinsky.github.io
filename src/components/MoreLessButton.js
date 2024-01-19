@@ -2,7 +2,11 @@ import Button from '@mui/material/Button';
 
 function MoreLessButton({isOpen}) {
     return (
-        <Button>{isOpen ? "Show Less" : "Show More"}</Button>
+        <Button>
+            <div style={{color: 'white', fontWeight: 'bold'}}>
+                {isOpen ? "Show Less" : "Show More"}
+            </div>
+        </Button>
     );
 }
 

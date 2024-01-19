@@ -6,15 +6,15 @@ function TimelineNode(props) {
     return (
         <VerticalTimelineElement 
             date={props.date}
-            className    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            contentStyle={{ background: props.colour, color: '#fff' }}
+            contentArrowStyle={{ borderRight: `7px solid ${props.colour}` }}
+            iconStyle={{ background: props.colour, color: '#fff' }}
         >
             <AnimatedShowMore
                 height={100}
                 toggle={MoreLessButton}
                 speed={250}
-                shadowColor="#000"
+                shadowColor={props.colour}
             >
                 {props.children}
             </AnimatedShowMore>
